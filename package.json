@@ -1,5 +1,6 @@
 {
-  "name": "luke-portfolio",
+  "name": "anton-portfolio",
+  "homepage": "https://antoxa291.github.io/portfolio-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
