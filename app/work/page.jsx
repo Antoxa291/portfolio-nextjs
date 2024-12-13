@@ -26,7 +26,7 @@ const projects = [
     title: "project 1",
     description:
       "This project is a robust and high-performance casino and betting platform. As the Lead Front-End Developer, my role involved designing and developing clean, efficient, scalable, and maintainable code. I focused on creating a seamless user experience with a modern, responsive interface, integrating real-time updates using WebSockets, and ensuring cross-browser compatibility.",
-    stack: [{ name: "HTML 5" }, { name: "Typescript" }, { name: "Nuxt 3" }, { name: "Tailwind css" }, { name: "Vuetify 3" }, { name: "Pinia" }, { name: "WebSockets" }],
+    stack: [{ name: "HTML 5" }, { name: "Typescript" }, { name: "Nuxt 3" }, { name: "Tailwind css" }, { name: "GSAP Animations" }, { name: "Vuetify 3" }, { name: "Pinia" }, { name: "WebSockets" }],
     image: "/assets/work/thumb1.webp",
     live: "https://4rabetsite.com/",
     github: "NDA",
@@ -51,6 +51,17 @@ const projects = [
     stack: [{ name: "HTML 5" }, { name: "Vue 3" }, { name: "SCSS" }, { name: "Typescript" }, { name: "Pinia" }, { name: "React.js" }, { name: "SharedWorkers" }, { name: 'IndexDB' }],
     image: "/assets/work/thumb3.webp",
     live: "https://app.fixiq.pro/#/",
+    github: "NDA",
+  },
+  {
+    num: "04",
+    category: "Case opening and trading platform for CS:GO/CS2",
+    title: "project 4",
+    description:
+      "This project is a cutting-edge platform designed for CS:GO/CS2 enthusiasts, offering a seamless case-opening and trading experience. Built with players in mind, the platform features a Provably Fair system for transparency and fairness. Users can explore an extensive collection of CS2 skins and engage in dynamic case battles and trading, creating a highly interactive and engaging experience.",
+    stack: [{ name: "HTML 5" }, { name: "Nuxt 3" }, { name: "GSAP Animations" }, { name: "Typescript" }, { name: "Pinia" }, { name: "WebSockets" }],
+    image: "/assets/work/thumb4.webp",
+    live: "https://skin.club/",
     github: "NDA",
   },
 ];
@@ -143,9 +154,9 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="h-[460px] relative group flex justify-center items-center  bg-accent/80">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                      <div className="absolute top-0 bottom-0 w-full h-full z-10"></div>
                       {/* image */}
                       <div className="relative w-full h-full">
                         <Image

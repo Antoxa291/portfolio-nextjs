@@ -8,6 +8,7 @@ import {
   FaVuejs,
   FaFigma,
   FaNodeJs,
+  FaGit
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs, SiNuxtdotjs, SiTypescript } from "react-icons/si";
@@ -162,6 +163,10 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "figma",
+    },
+    {
+      icon: <FaGit />,
+      name: "git",
     },
   ],
 };
